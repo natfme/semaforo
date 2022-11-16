@@ -60,9 +60,9 @@ function actividad3_tiempo () {
     pins.digitalWritePin(DigitalPin.P0, 0)
     while (i >= Tiempo * 2) {
         basic.showIcon(IconNames.Happy)
-        basic.pause(5000)
+        basic.pause(100)
         basic.showIcon(IconNames.Happy)
-        basic.pause(5000)
+        basic.pause(100)
         basic.showIcon(IconNames.Happy)
         i += -1
     }
